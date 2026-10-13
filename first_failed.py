@@ -5,5 +5,5 @@ def first_failed(tests):
     return None
 
 tests = [("login", "pass"), ("search", "fail"), ("logout", "fail")]
-print(first_failed(tests))                 # search
-print(first_failed([("login", "pass")]))   # None
+print(first_failed(tests))                 
+print(first_failed([("login", "pass")]))   
